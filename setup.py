@@ -25,6 +25,7 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.10",
     ],
 
     install_requires=[
@@ -36,6 +37,7 @@ setup(
         "simplejson==3.11.1",
         "singer-python>=5.2.0",
         "setuptools>=40.3.0",
+        "numpy<2"
     ],
 
     entry_points="""
